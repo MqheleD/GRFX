@@ -7,7 +7,9 @@ export default function Header() {
         <div>
             <div>Header</div>
             <Link to="/">Home</Link>
-            <Link to="/boards">Boards</Link>
+            <Link to="/Boards">Boards</Link>
+            <Link to="/Prints">Prints</Link>
+            <Link to="/Store">Store</Link>
         </div>
     )
 }
