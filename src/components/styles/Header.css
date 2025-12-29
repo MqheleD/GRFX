@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  width: 100%;
+  box-sizing: border-box; /* 🔑 THIS FIXES CLIPPING */
+  border-bottom: 1px solid #333;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.authButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.authButtons button {
+  border-radius: 50px;
+}
