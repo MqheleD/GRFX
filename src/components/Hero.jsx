@@ -1,9 +1,13 @@
-import React from 'react'
-
-
+import HeroImage from "/Hero.png"
+import "./styles/Hero.css"
 
 export default function Hero() {
   return (
-    <div>Hero</div>
+    <section className="hero">
+      <img src={HeroImage} alt="Hero" className="heroImage" />
+      <div className="heroContent">
+        <h1>Hero</h1>
+      </div>
+    </section>
   )
 }
