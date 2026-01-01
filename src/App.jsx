@@ -8,6 +8,8 @@ import Boards from "./pages/Boards";
 import Prints from "./pages/Prints";
 import Store from "./pages/Store";
 
+import Footer from "./components/Footer";
+
 export default function App() {
   return (
     <Router>
@@ -22,6 +24,8 @@ export default function App() {
         <Route path="Store" element={<Store />} />
 
       </Routes>
+
+      <Footer />
     </Router>
   )
 }

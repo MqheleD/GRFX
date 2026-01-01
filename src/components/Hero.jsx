@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="hero">
       <img src={HeroImage} alt="Hero" className="heroImage" />
       <div className="heroContent">
-        <h1>Hero</h1>
+        <h1>GRAFIX</h1>
       </div>
     </section>
   )
