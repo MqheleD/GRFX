@@ -25,7 +25,7 @@ export default function Footer() {
       </div>
 
       <div className="footerBottom">
-        &copy; {new Date().getFullYear()} YourBrand. All rights reserved.
+        &copy; {new Date().getFullYear()} GRFX. All rights reserved.
       </div>
     </footer>
   )
